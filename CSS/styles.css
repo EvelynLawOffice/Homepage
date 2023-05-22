@@ -179,15 +179,15 @@ html, body {
 }
 
 .one {
-  background-image: url('../images/Services/photos/Civil_275x220.jpg');
+  background-image: url('../images/services/photos/Civil_275x220.jpg');
 }
 
 .two {
-  background-image: url('../images/Services/photos/family-275x220.jpg');
+  background-image: url('../images/services/photos/family-275x220.jpg');
 }
 
 .three {
-  background-image: url('../images/Services/photos/personal_275x220.jpg');
+  background-image: url('../images/services/photos/personal_275x220.jpg');
 }
 
 .service-block p {

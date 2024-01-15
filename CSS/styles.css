@@ -103,6 +103,10 @@ html, body {
   display: none;
 }
 
+.contact-block h2, h3 {
+  display: none;
+}
+
 .bio-wrap {
   display:flex;
   flex-direction:row;

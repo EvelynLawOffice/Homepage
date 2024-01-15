@@ -1,5 +1,6 @@
 html, body {
   max-width: 100%;
+  height: 100%;
   overflow-x: hidden;
 }
 
@@ -56,8 +57,8 @@ html, body {
 
 
 .hero-wrap {
-  display:flex;
-  flex-direction:column;
+  /* display:flex;
+  flex-direction:column; */
   height:auto;
   width:auto;
 }
@@ -84,7 +85,7 @@ html, body {
 .hero-text h1 {
   margin:0;
   color:#CCB69D;
- font-family: 'Cinzel', serif;
+  font-family: 'Cinzel', serif;
   text-transform:uppercase;
   font-weight:700;
   font-size:4rem;
@@ -98,6 +99,10 @@ html, body {
   font-size:2.5rem;
 }
 
+.contact-block {
+  display: none;
+}
+
 .bio-wrap {
   display:flex;
   flex-direction:row;
@@ -107,6 +112,7 @@ html, body {
   height:590px;
   padding:2rem;
   background-color:#CCB69D;
+  /* outline:1px solid red; */
 }
 
 .bio {
@@ -204,9 +210,6 @@ html, body {
 
 /*--Footer Section--*/
 
-/* footer {
-
-} */
 
 .footer-wrap {
   display:flex;
@@ -278,10 +281,172 @@ html, body {
 @media screen and (max-width: 480px) {
   
   .hero-wrap {
-  outline:2px solid green;
+  /* outline:2px solid rgb(230, 11, 193); */
+  height:auto;
+  width:100%;
 }
   
   .hero {
-    height:300px
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:260px;
+    width: 100%;
   }
+
+  .hero-text-wrap {
+    /* outline: 1px solid rgb(226, 168, 43); */
+    position: none;
+    top: auto;
+    left: auto;
+    width:400px;
+    height:auto;
+    border-left:none;
+    text-align: center;
+  }
+
+  .hero-text h1 {
+    display: none;
+  }
+  
+  .hero-text h2{
+    display: none;
+  }
+
+  .contact-block {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .contact-block h2 {
+    display:block;
+    color:#CCB69D;
+    line-height:1.5rem;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size:1.8rem;
+  }
+
+  .contact-block h3 {
+    display:inline-block;
+    color:white;
+    width: auto;
+    padding: 3px 15px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff34; /* Green */
+    border: 1px solid white;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    font-size:1.45rem;
+  }
+
+  .section-title h1 {
+    width:100%;
+    margin:0 auto;
+    padding:.5rem;
+}
+
+.section-title {
+  width:90%;
+  text-align:center;
+  margin-bottom:2rem;
+  font-size:1.25rem;
+}
+
+.bio-wrap {
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-content:space-around;
+  height:auto;
+  padding:2rem;
+  background-color:#CCB69D;
+  /* outline:1px solid red; */
+}
+
+.bio img {
+  display:block;
+  width: 160px;
+  height: auto;
+  margin:0 auto 2rem auto;
+    /* max-height: 300px; */
+  border:2px solid black;
+  border-radius:100px;
+}
+
+.bio p {
+    font-size:.95rem;
+    margin-bottom:2rem;
+    font-family: 'Source Serif Pro', serif;
+    line-height:1.25rem;
+    text-transform:none;
+  }
+
+
+  /* Mobile Footer CSS */
+  .footer-wrap {
+    display:flex;
+    justify-content:center;
+    padding:2.5rem;
+    width:100%;
+    height:auto;
+    margin-top:0;
+    background-image:none;
+    background-color:black;
+    /* outline: 1px solid red; */
+  }
+
+  .footer-text {
+    text-align:center;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    font-size:1.25rem;
+    width:70%;
+    margin:0 auto;
+    /* outline: 1px solid red; */
+  }
+  
+  .footer-text h3 {
+    text-align:center;
+    text-transform:uppercase;
+    /* font-weight: bold; */
+    color:rgb(196, 171, 134);
+    margin-bottom:0;
+    /* outline:1px solid red; */
+  }
+  
+  .footer-text p {
+    text-align:center;
+    color:white;
+    padding:10px;
+    border-bottom:1px solid rgb(196, 171, 134);
+    /* outline:1px solid red; */
+    }
+  
+  .info {
+    margin-top:15px;
+    
+  }
+  
+  #area, #phone {
+    text-align:center;
+    color:rgb(196, 171, 134);
+    margin-bottom:0;
+    padding: 0;
+    border-bottom:none;
+    /* outline:1px solid red; */
+    }
+
+    .super-footer {
+      height:50px;
+      width:100%;
+      padding:0;
+      background-color:#0e0e0e;
+      /* outline: 1px solid red; */
+    }
+
 }

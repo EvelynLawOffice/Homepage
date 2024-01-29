@@ -103,17 +103,13 @@ html, body {
   display: none;
 }
 
-.contact-block h2, h3 {
-  display: none;
-}
-
 .bio-wrap {
   display:flex;
   flex-direction:row;
   flex-wrap:wrap;
   justify-content:center;
   align-content:space-around;
-  height:590px;
+  height:auto;
   padding:2rem;
   background-color:#CCB69D;
   /* outline:1px solid red; */
@@ -122,8 +118,9 @@ html, body {
 .bio {
   max-width:550px;
   text-align:justify;
-  margin-bottom:2rem;
+  /* margin-bottom:1rem; */
   border-bottom:1px solid black;
+  /* outline: 1px solid red; */
 }
 
 .bio img {
@@ -139,10 +136,14 @@ html, body {
 .bio p {
 /*   width:100%; */
   font-size:1.1rem;
-  margin-bottom:2rem;
+  margin-bottom:1.75rem;
   font-family: 'Source Serif Pro', serif;
   line-height:1.25rem;
   text-transform:none;
+}
+
+span.phone {
+  color: steelblue;
 }
 
 .services-wrap {

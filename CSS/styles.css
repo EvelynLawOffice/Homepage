@@ -75,28 +75,31 @@ html, body {
 .hero-text-wrap {
   position:relative;
   top:8rem;
-  left:3rem;
+  left:5.5rem;
   width:auto;
   height:auto;
   padding:0 1rem 0 .75rem;
   border-left:1px solid white;
+  /* outline: 1px solid red; */
 }
 
 .hero-text h1 {
   margin:0;
-  color:#CCB69D;
-  font-family: 'Cinzel', serif;
-  text-transform:uppercase;
-  font-weight:700;
-  font-size:4rem;
+  color:white;
+  font-family: "Aboreto", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size:2.75rem;
 }
 
 .hero-text h2{
-  color:white;
-  line-height:2.75rem;
+  color:#CCB69D;
+  line-height:5rem;
 /*   margin-top:.5rem; */
- font-family: 'Cinzel', serif;
-  font-size:2.5rem;
+  font-family: 'Cinzel', serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size:4.75rem;
 }
 
 .contact-block {
